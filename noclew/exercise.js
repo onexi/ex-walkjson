@@ -32,5 +32,6 @@ exercise.getHobbies = function() {
             }
         }
     }
+
     return exercise.hobbies;
 };
