@@ -473,6 +473,59 @@
                     "err": {}
                 }
             ]
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 1,
+                "pending": 0,
+                "failures": 1,
+                "start": "2017-12-12T20:38:56.386Z",
+                "end": "2017-12-12T20:38:56.398Z",
+                "duration": 12
+            },
+            "tests": [
+                {
+                    "title": "List people taking 0.00",
+                    "fullTitle": "JSON Exercises - list people taking course List people taking 0.00",
+                    "duration": 0,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: name is not defined\n    at Object.exercise.getCourseList (evalmachine.<anonymous>:12:37)\n    at Context.<anonymous> (test/test.js:11:19)",
+                        "message": "name is not defined"
+                    }
+                },
+                {
+                    "title": "List hobbies",
+                    "fullTitle": "JSON Exercises - get getHobbies List hobbies",
+                    "duration": 3,
+                    "currentRetry": 0,
+                    "err": {}
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "List people taking 0.00",
+                    "fullTitle": "JSON Exercises - list people taking course List people taking 0.00",
+                    "duration": 0,
+                    "currentRetry": 0,
+                    "err": {
+                        "stack": "ReferenceError: name is not defined\n    at Object.exercise.getCourseList (evalmachine.<anonymous>:12:37)\n    at Context.<anonymous> (test/test.js:11:19)",
+                        "message": "name is not defined"
+                    }
+                }
+            ],
+            "passes": [
+                {
+                    "title": "List hobbies",
+                    "fullTitle": "JSON Exercises - get getHobbies List hobbies",
+                    "duration": 3,
+                    "currentRetry": 0,
+                    "err": {}
+                }
+            ]
         }
     ]
 }
