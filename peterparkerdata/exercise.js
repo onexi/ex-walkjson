@@ -4,7 +4,7 @@ exercise.hobbies = [];
 exercise.getCourseList = function(courseName) {
     var list = [];
     var dataLength = exercise.data.contacts.length;
-    var people = exercise.data.contacts;
+    var target = exercise.data.contacts;
     var person;
     // enter code to list each person that takes this course
     for (var i = 0; i < dataLength; i++) {
