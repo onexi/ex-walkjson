@@ -183,6 +183,190 @@
                 }
             ],
             "passes": []
+        },
+        {
+            "stats": {
+                "suites": 2,
+                "tests": 2,
+                "passes": 0,
+                "pending": 0,
+                "failures": 2,
+                "start": "2017-12-12T20:05:43.870Z",
+                "end": "2017-12-12T20:05:43.883Z",
+                "duration": 13
+            },
+            "tests": [
+                {
+                    "title": "List people taking 0.00",
+                    "fullTitle": "JSON Exercises - list people taking course List people taking 0.00",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected [ Array(4) ] to be empty",
+                        "showDiff": false,
+                        "actual": [
+                            {
+                                "name": "john",
+                                "email": "jrw@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "1.125"
+                                ],
+                                "hobbies": [
+                                    "golf",
+                                    "tango"
+                                ]
+                            },
+                            {
+                                "name": "abel",
+                                "email": "abel@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "1.125"
+                                ],
+                                "hobbies": [
+                                    "basketball",
+                                    "guitar"
+                                ]
+                            },
+                            {
+                                "name": "nadia",
+                                "email": "nadia@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "6.001"
+                                ],
+                                "hobbies": [
+                                    "french",
+                                    "skydiving"
+                                ]
+                            },
+                            {
+                                "name": "isabella",
+                                "email": "isabella@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "15.131"
+                                ],
+                                "hobbies": [
+                                    "swimming",
+                                    "travel"
+                                ]
+                            }
+                        ],
+                        "stack": "AssertionError: expected [ Array(4) ] to be empty\n    at Context.<anonymous> (test/test.js:11:47)"
+                    }
+                },
+                {
+                    "title": "List hobbies",
+                    "fullTitle": "JSON Exercises - get getHobbies List hobbies",
+                    "duration": 3,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected [] to deeply equal [ Array(8) ]",
+                        "showDiff": true,
+                        "actual": [],
+                        "expected": [
+                            "golf",
+                            "tango",
+                            "basketball",
+                            "guitar",
+                            "french",
+                            "skydiving",
+                            "swimming",
+                            "travel"
+                        ],
+                        "stack": "AssertionError: expected [] to deeply equal [ Array(8) ]\n    at Context.<anonymous> (test/test.js:17:36)"
+                    }
+                }
+            ],
+            "pending": [],
+            "failures": [
+                {
+                    "title": "List people taking 0.00",
+                    "fullTitle": "JSON Exercises - list people taking course List people taking 0.00",
+                    "duration": 4,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected [ Array(4) ] to be empty",
+                        "showDiff": false,
+                        "actual": [
+                            {
+                                "name": "john",
+                                "email": "jrw@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "1.125"
+                                ],
+                                "hobbies": [
+                                    "golf",
+                                    "tango"
+                                ]
+                            },
+                            {
+                                "name": "abel",
+                                "email": "abel@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "1.125"
+                                ],
+                                "hobbies": [
+                                    "basketball",
+                                    "guitar"
+                                ]
+                            },
+                            {
+                                "name": "nadia",
+                                "email": "nadia@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "6.001"
+                                ],
+                                "hobbies": [
+                                    "french",
+                                    "skydiving"
+                                ]
+                            },
+                            {
+                                "name": "isabella",
+                                "email": "isabella@mit.edu",
+                                "courses": [
+                                    "1.00",
+                                    "15.131"
+                                ],
+                                "hobbies": [
+                                    "swimming",
+                                    "travel"
+                                ]
+                            }
+                        ],
+                        "stack": "AssertionError: expected [ Array(4) ] to be empty\n    at Context.<anonymous> (test/test.js:11:47)"
+                    }
+                },
+                {
+                    "title": "List hobbies",
+                    "fullTitle": "JSON Exercises - get getHobbies List hobbies",
+                    "duration": 3,
+                    "currentRetry": 0,
+                    "err": {
+                        "message": "expected [] to deeply equal [ Array(8) ]",
+                        "showDiff": true,
+                        "actual": [],
+                        "expected": [
+                            "golf",
+                            "tango",
+                            "basketball",
+                            "guitar",
+                            "french",
+                            "skydiving",
+                            "swimming",
+                            "travel"
+                        ],
+                        "stack": "AssertionError: expected [] to deeply equal [ Array(8) ]\n    at Context.<anonymous> (test/test.js:17:36)"
+                    }
+                }
+            ],
+            "passes": []
         }
     ]
 }
